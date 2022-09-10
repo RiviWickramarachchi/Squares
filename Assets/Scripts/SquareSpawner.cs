@@ -11,7 +11,7 @@ public class SquareSpawner : MonoBehaviour
     public float maxY;
     public GenState genState;
     private IEnumerator routine;
-    [SerializeField] private float spawnTime = 5f;
+    [SerializeField] private float spawnTime = 3f;
     [SerializeField] private GameObject square;
     void Awake() {
         Assert.IsNotNull(square);

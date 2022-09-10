@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void  AddTimeAndScore() {
-        timeVal += 7f;
+        timeVal += 5f;
         score += 5;
         scoreText.text = score.ToString();
 
